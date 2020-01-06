@@ -1,6 +1,6 @@
 provider "grafana" {
   url  = "https://grafana.egdl-eks-us-east-1.egdp-dev.aws.away.black"
-  auth = "eyJrIjoiMkcyY3VjSlMwaUZRSFpZVTQ0SXo1ZDZRRkVYckhIUzAiLCJuIjoic2FtcnVkZGhpIiwiaWQiOjF9"
+  auth = "eyJrIjoienM2UDNQNUlLMm9PbXRzcmlBVUFaNUVUUzlOTmFyYjkiLCJuIjoic2FtLWFwaS1rZXkiLCJpZCI6MX0="
 }
 resource "grafana_dashboard" "sam-test-tf" {
   config_json = "${file("${path.module}/templates/grafana-sam-test.json")}"

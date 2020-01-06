@@ -79,7 +79,7 @@
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "Samruddhi-test",
+      "title": "Samruddhi-test-tf",
       "tooltip": {
         "shared": true,
         "sort": 0,
@@ -142,7 +142,7 @@
     ]
   },
   "timezone": "",
-  "title": "Sam-test",
+  "title": "Sam-test-tf",
   "uid": "QBosCREWk",
   "version": 5
 }

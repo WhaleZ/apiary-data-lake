@@ -32,6 +32,7 @@ resource "aws_iam_role_policy" "s3_data_for_hms_readwrite" {
                   "Resource": [
                                 "arn:aws:s3:::${local.apiary_bucket_prefix}-*",
                                 "arn:aws:s3:::${local.apiary_bucket_prefix}-*/*",
+                                "arn:aws:s3:::drmapitest-672016901104-us-east-1-*",
                                 "arn:aws:s3:::drmapitest-672016901104-us-east-1-*/*"
                               ]
                 }

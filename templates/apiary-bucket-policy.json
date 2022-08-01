@@ -102,7 +102,7 @@
                 "arn:aws:s3:::${bucket_name}/*"
             ],
             "Condition": {
-              "StringLike": {
+              "ArnLike": {
                 "aws:PrincipalArn": [ "${consumer_iamroles}" ]
               }
             }

@@ -715,3 +715,9 @@ variable "hms_ro_request_partition_limit" {
   type        = string
   default     = ""
 }
+
+variable "datadog_key_secret_name" {
+  description = "SecretsManager secret name containing a DataDog API key"
+  type        = string
+  default     = "dd-analytics-platform-starburst"
+}

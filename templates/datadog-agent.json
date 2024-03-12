@@ -26,7 +26,7 @@
       },
       {
         "name": "DD_TAGS",
-        "value": "account:hcom env:lab"
+        "value": "${datadog_tags}"
       }
     ]
   }

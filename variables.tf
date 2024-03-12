@@ -393,3 +393,8 @@ variable "instance_type" {
   default     = "ecs"
 }
 
+variable "ecs_datadog_tags" {
+  description = "Enable sending Hive Metastore metrics to CloudWatch."
+  type        = "string"
+  default     = ""
+}
